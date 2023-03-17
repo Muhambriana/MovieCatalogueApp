@@ -12,6 +12,7 @@ class HomeActivity : AppCompatActivity() {
         val activityHomeBinding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(activityHomeBinding.root)
         supportActionBar?.setDisplayShowHomeEnabled(true)
+        supportActionBar?.setDisplayShowTitleEnabled(false)
         supportActionBar?.setLogo(R.drawable.actionbar_icon)
         supportActionBar?.setDisplayUseLogoEnabled(true)
 
