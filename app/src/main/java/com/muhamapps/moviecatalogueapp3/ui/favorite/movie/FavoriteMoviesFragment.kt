@@ -61,6 +61,9 @@ class FavoriteMoviesFragment : Fragment() {
         super.onResume()
     }
 
+    private fun deleteSoon() {
+
+    }
     private fun moviesViewModel() {
         val factory = ViewModelFactory.getInstance(requireActivity())
         viewModel = ViewModelProvider(this, factory)[FavoritesViewModel::class.java]
