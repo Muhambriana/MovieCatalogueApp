@@ -13,10 +13,10 @@
         android:theme="@style/Theme.AppCompat">
         <activity
             android:name=".ui.home.HomeActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".ui.detail.DetailCatalogueActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".ui.SplashScreenActivity"
             android:exported="true">
